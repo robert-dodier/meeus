@@ -1,0 +1,583 @@
+equatorial_lines_north[0]: new (Line) $
+equatorial_lines_north[0] @hour: 5 $
+equatorial_lines_north[0] @points: [
+Point ( 2.6323960532022386 , 0.7053483966144147 ),
+Point ( 2.227854371303789 , 0.5969517796449969 )
+] $
+equatorial_lines_north[1]: new (Line) $
+equatorial_lines_north[1] @hour: 6 $
+equatorial_lines_north[1] @points: [
+Point ( +Inf , -Inf ),
+Point ( 4.928364122109619 , -3.0177526735870955e-16 ),
+Point ( 2.725256931285791 , -1.6687385888766388e-16 ),
+Point ( 2.3064445640332933 , -1.4122899763770904e-16 )
+] $
+equatorial_lines_north[2]: new (Line) $
+equatorial_lines_north[2] @hour: 7 $
+equatorial_lines_north[2] @points: [
+Point ( +Inf , -Inf ),
+Point ( 4.760434186902132 , -1.2755544960019343 ),
+Point ( 2.6323960532022386 , -0.7053483966144144 ),
+Point ( 2.227854371303789 , -0.5969517796449967 )
+] $
+equatorial_lines_north[3]: new (Line) $
+equatorial_lines_north[3] @hour: 8 $
+equatorial_lines_north[3] @points: [
+Point ( +Inf , -Inf ),
+Point ( 4.2680885288467225 , -2.4641820610548097 ),
+Point ( 2.360141734333117 , -1.3626284656428957 ),
+Point ( 1.9974395848733562 , -1.153222282016647 )
+] $
+equatorial_lines_north[4]: new (Line) $
+equatorial_lines_north[4] @hour: 9 $
+equatorial_lines_north[4] @points: [
+Point ( +Inf , -Inf ),
+Point ( 3.484879690900197 , -3.484879690900198 ),
+Point ( 1.9270476565878236 , -1.9270476565878238 ),
+Point ( 1.6309025916587918 , -1.630902591658792 )
+] $
+equatorial_lines_north[5]: new (Line) $
+equatorial_lines_north[5] @hour: 10 $
+equatorial_lines_north[5] @points: [
+Point ( +Inf , -Inf ),
+Point ( 2.464182061054809 , -4.268088528846723 ),
+Point ( 1.3626284656428953 , -2.3601417343331175 ),
+Point ( 1.1532222820166464 , -1.9974395848733564 )
+] $
+equatorial_lines_north[6]: new (Line) $
+equatorial_lines_north[6] @hour: 11 $
+equatorial_lines_north[6] @points: [
+Point ( +Inf , -Inf ),
+Point ( 1.2755544960019343 , -4.760434186902132 ),
+Point ( 0.7053483966144144 , -2.6323960532022386 ),
+Point ( 0.5969517796449967 , -2.227854371303789 )
+] $
+equatorial_lines_north[7]: new (Line) $
+equatorial_lines_north[7] @hour: 12 $
+equatorial_lines_north[7] @points: [
+Point ( NaN , -Inf ),
+Point ( -0 , -4.928364122109619 ),
+Point ( -0 , -2.725256931285791 ),
+Point ( -0 , -2.3064445640332933 )
+] $
+equatorial_lines_north[8]: new (Line) $
+equatorial_lines_north[8] @hour: 13 $
+equatorial_lines_north[8] @points: [
+Point ( -Inf , -Inf ),
+Point ( -1.2755544960019343 , -4.760434186902132 ),
+Point ( -0.7053483966144144 , -2.6323960532022386 ),
+Point ( -0.5969517796449967 , -2.227854371303789 )
+] $
+equatorial_lines_north[9]: new (Line) $
+equatorial_lines_north[9] @hour: 14 $
+equatorial_lines_north[9] @points: [
+Point ( -Inf , -Inf ),
+Point ( -2.464182061054809 , -4.268088528846723 ),
+Point ( -1.3626284656428953 , -2.3601417343331175 ),
+Point ( -1.1532222820166464 , -1.9974395848733564 )
+] $
+equatorial_lines_north[10]: new (Line) $
+equatorial_lines_north[10] @hour: 15 $
+equatorial_lines_north[10] @points: [
+Point ( -Inf , -Inf ),
+Point ( -3.484879690900197 , -3.484879690900198 ),
+Point ( -1.9270476565878236 , -1.9270476565878238 ),
+Point ( -1.6309025916587918 , -1.630902591658792 )
+] $
+equatorial_lines_north[11]: new (Line) $
+equatorial_lines_north[11] @hour: 16 $
+equatorial_lines_north[11] @points: [
+Point ( -Inf , -Inf ),
+Point ( -4.2680885288467225 , -2.4641820610548097 ),
+Point ( -2.360141734333117 , -1.3626284656428957 ),
+Point ( -1.9974395848733562 , -1.153222282016647 )
+] $
+equatorial_lines_north[12]: new (Line) $
+equatorial_lines_north[12] @hour: 17 $
+equatorial_lines_north[12] @points: [
+Point ( -Inf , -Inf ),
+Point ( -4.760434186902132 , -1.2755544960019343 ),
+Point ( -2.6323960532022386 , -0.7053483966144144 ),
+Point ( -2.227854371303789 , -0.5969517796449967 )
+] $
+equatorial_lines_north[13]: new (Line) $
+equatorial_lines_north[13] @hour: 18 $
+equatorial_lines_north[13] @points: [
+Point ( -Inf , -Inf ),
+Point ( -4.928364122109619 , -3.0177526735870955e-16 ),
+Point ( -2.725256931285791 , -1.6687385888766388e-16 ),
+Point ( -2.3064445640332933 , -1.4122899763770904e-16 )
+] $
+equatorial_lines_north[14]: new (Line) $
+equatorial_lines_north[14] @hour: 19 $
+equatorial_lines_north[14] @points: [
+Point ( -2.6323960532022386 , 0.7053483966144147 ),
+Point ( -2.227854371303789 , 0.5969517796449969 )
+] $
+equatorial_lines_south[0]: new (Line) $
+equatorial_lines_south[0] @hour: 7 $
+equatorial_lines_south[0] @points: [
+Point ( -4.760434186902132 , -1.2755544960019343 )
+] $
+equatorial_lines_south[1]: new (Line) $
+equatorial_lines_south[1] @hour: 8 $
+equatorial_lines_south[1] @points: [
+Point ( -1.9974395848733562 , -1.153222282016647 ),
+Point ( -2.360141734333117 , -1.3626284656428957 ),
+Point ( -4.2680885288467225 , -2.4641820610548097 )
+] $
+equatorial_lines_south[2]: new (Line) $
+equatorial_lines_south[2] @hour: 9 $
+equatorial_lines_south[2] @points: [
+Point ( -1.6309025916587918 , -1.630902591658792 ),
+Point ( -1.9270476565878236 , -1.9270476565878238 ),
+Point ( -3.484879690900197 , -3.484879690900198 )
+] $
+equatorial_lines_south[3]: new (Line) $
+equatorial_lines_south[3] @hour: 10 $
+equatorial_lines_south[3] @points: [
+Point ( -1.1532222820166464 , -1.9974395848733564 ),
+Point ( -1.3626284656428953 , -2.3601417343331175 ),
+Point ( -2.464182061054809 , -4.268088528846723 )
+] $
+equatorial_lines_south[4]: new (Line) $
+equatorial_lines_south[4] @hour: 11 $
+equatorial_lines_south[4] @points: [
+Point ( -0.5969517796449967 , -2.227854371303789 ),
+Point ( -0.7053483966144144 , -2.6323960532022386 ),
+Point ( -1.2755544960019343 , -4.760434186902132 )
+] $
+equatorial_lines_south[5]: new (Line) $
+equatorial_lines_south[5] @hour: 12 $
+equatorial_lines_south[5] @points: [
+Point ( 0 , -2.3064445640332933 ),
+Point ( 0 , -2.725256931285791 ),
+Point ( 0 , -4.928364122109619 )
+] $
+equatorial_lines_south[6]: new (Line) $
+equatorial_lines_south[6] @hour: 13 $
+equatorial_lines_south[6] @points: [
+Point ( 0.5969517796449967 , -2.227854371303789 ),
+Point ( 0.7053483966144144 , -2.6323960532022386 ),
+Point ( 1.2755544960019343 , -4.760434186902132 )
+] $
+equatorial_lines_south[7]: new (Line) $
+equatorial_lines_south[7] @hour: 14 $
+equatorial_lines_south[7] @points: [
+Point ( 1.1532222820166464 , -1.9974395848733564 ),
+Point ( 1.3626284656428953 , -2.3601417343331175 ),
+Point ( 2.464182061054809 , -4.268088528846723 )
+] $
+equatorial_lines_south[8]: new (Line) $
+equatorial_lines_south[8] @hour: 15 $
+equatorial_lines_south[8] @points: [
+Point ( 1.6309025916587918 , -1.630902591658792 ),
+Point ( 1.9270476565878236 , -1.9270476565878238 ),
+Point ( 3.484879690900197 , -3.484879690900198 )
+] $
+equatorial_lines_south[9]: new (Line) $
+equatorial_lines_south[9] @hour: 16 $
+equatorial_lines_south[9] @points: [
+Point ( 1.9974395848733562 , -1.153222282016647 ),
+Point ( 2.360141734333117 , -1.3626284656428957 ),
+Point ( 4.2680885288467225 , -2.4641820610548097 )
+] $
+equatorial_lines_south[10]: new (Line) $
+equatorial_lines_south[10] @hour: 17 $
+equatorial_lines_south[10] @points: [
+Point ( 4.760434186902132 , -1.2755544960019343 )
+] $
+horizontal_center: Point ( 0 , -1.0000000000000002 ) $
+horizontal_u: 1.4142135623730951 $
+horizontal_lines[0]: new (Line) $
+horizontal_lines[0] @hour: 5 $
+horizontal_lines[0] @points: [
+Point ( -12.634481391585524 , -5.787677300987814 ),
+Point ( -7.817084179443631 , -3.9621854135428514 )
+] $
+horizontal_lines[1]: new (Line) $
+horizontal_lines[1] @hour: 6 $
+horizontal_lines[1] @points: [
+Point ( -2.3095860183650132e+16 , 0.9999999999999999 ),
+Point ( -6.969759381800392 , -0.9999999999999992 ),
+Point ( -3.8540953131756472 , -0.9999999999999998 ),
+Point ( -3.2618051833175836 , -0.9999999999999998 )
+] $
+horizontal_lines[2]: new (Line) $
+horizontal_lines[2] @hour: 7 $
+horizontal_lines[2] @points: [
+Point ( -24.43172108450834 , 8.258092424614109 ),
+Point ( -5.277916867529369 , 0.9999999999999999 ),
+Point ( -2.9585187266355892 , 0.1210933407598339 ),
+Point ( -2.182996862908914 , -0.1727808839358281 ),
+Point ( -1.9729223556082558 , -0.2523859677495091 )
+] $
+horizontal_lines[3]: new (Line) $
+horizontal_lines[3] @hour: 8 $
+horizontal_lines[3] @points: [
+Point ( -18.436001042210563 , 14.052931816944922 ),
+Point ( -9.20430899956858 , 6.515286827950047 ),
+Point ( -4.122430429557159 , 2.365950350845838 ),
+Point ( -2.4494897427831774 , 0.9999999999999999 ),
+Point ( -1.7423993821693557 , 0.4226631381518615 ),
+Point ( -1.4127250637812059 , 0.15348518436825848 ),
+Point ( -1.3118971387864111 , 0.07115952834797114 )
+] $
+horizontal_lines[4]: new (Line) $
+horizontal_lines[4] @hour: 9 $
+horizontal_lines[4] @points: [
+Point ( -3.655785527792973 , 4.170061474532107 ),
+Point ( -2.939716110514338 , 3.157386393016062 ),
+Point ( -1.9833411412864894 , 1.8048679408198867 ),
+Point ( -1.4142135623730947 , 0.9999999999999998 ),
+Point ( -1.0988843540461628 , 0.5540571569716815 ),
+Point ( -0.931059979550429 , 0.31671765046303346 ),
+Point ( -0.8766742529145 , 0.23980461825498672 )
+] $
+horizontal_lines[5]: new (Line) $
+horizontal_lines[5] @hour: 10 $
+horizontal_lines[5] @points: [
+Point ( -1.6350890985200521 , 3.0051339753614617 ),
+Point ( -1.4167991525770378 , 2.4704349918213535 ),
+Point ( -1.0663357678777379 , 1.6119785257793429 ),
+Point ( -0.8164965809277258 , 0.9999999999999998 ),
+Point ( -0.6615074275646423 , 0.6203556585944777 ),
+Point ( -0.5735018963330373 , 0.4047870125344764 ),
+Point ( -0.5440985699558973 , 0.33276386616996606 )
+] $
+horizontal_lines[6]: new (Line) $
+horizontal_lines[6] @hour: 11 $
+horizontal_lines[6] @points: [
+Point ( -0.6875549108973592 , 2.6288576615778245 ),
+Point ( -0.6110730706150752 , 2.2251928666922707 ),
+Point ( -0.47970696417851205 , 1.5318534777090755 ),
+Point ( -0.3789373819630119 , 0.9999999999999999 ),
+Point ( -0.3131546007232529 , 0.6528039493016814 ),
+Point ( -0.2746157781475499 , 0.44939924757465655 ),
+Point ( -0.2615413230416944 , 0.38039336043770644 )
+] $
+horizontal_lines[7]: new (Line) $
+horizontal_lines[7] @hour: 12 $
+horizontal_lines[7] @points: [
+Point ( 0 , 2.5308724572480457 ),
+Point ( 0 , 2.159247624937492 ),
+Point ( 0 , 1.5091177746847853 ),
+Point ( 0 , 0.9999999999999999 ),
+Point ( 0 , 0.6626388057809955 ),
+Point ( 0 , 0.4631242792400656 ),
+Point ( 0 , 0.3951206617054712 )
+] $
+horizontal_lines[8]: new (Line) $
+horizontal_lines[8] @hour: 13 $
+horizontal_lines[8] @points: [
+Point ( 0.6875549108973592 , 2.6288576615778245 ),
+Point ( 0.6110730706150752 , 2.2251928666922707 ),
+Point ( 0.47970696417851205 , 1.5318534777090755 ),
+Point ( 0.3789373819630119 , 0.9999999999999999 ),
+Point ( 0.3131546007232529 , 0.6528039493016814 ),
+Point ( 0.2746157781475499 , 0.44939924757465655 ),
+Point ( 0.2615413230416944 , 0.38039336043770644 )
+] $
+horizontal_lines[9]: new (Line) $
+horizontal_lines[9] @hour: 14 $
+horizontal_lines[9] @points: [
+Point ( 1.6350890985200521 , 3.0051339753614617 ),
+Point ( 1.4167991525770378 , 2.4704349918213535 ),
+Point ( 1.0663357678777379 , 1.6119785257793429 ),
+Point ( 0.8164965809277258 , 0.9999999999999998 ),
+Point ( 0.6615074275646423 , 0.6203556585944777 ),
+Point ( 0.5735018963330373 , 0.4047870125344764 ),
+Point ( 0.5440985699558973 , 0.33276386616996606 )
+] $
+horizontal_lines[10]: new (Line) $
+horizontal_lines[10] @hour: 15 $
+horizontal_lines[10] @points: [
+Point ( 3.655785527792973 , 4.170061474532107 ),
+Point ( 2.939716110514338 , 3.157386393016062 ),
+Point ( 1.9833411412864894 , 1.8048679408198867 ),
+Point ( 1.4142135623730947 , 0.9999999999999998 ),
+Point ( 1.0988843540461628 , 0.5540571569716815 ),
+Point ( 0.931059979550429 , 0.31671765046303346 ),
+Point ( 0.8766742529145 , 0.23980461825498672 )
+] $
+horizontal_lines[11]: new (Line) $
+horizontal_lines[11] @hour: 16 $
+horizontal_lines[11] @points: [
+Point ( 18.436001042210563 , 14.052931816944922 ),
+Point ( 9.20430899956858 , 6.515286827950047 ),
+Point ( 4.122430429557159 , 2.365950350845838 ),
+Point ( 2.4494897427831774 , 0.9999999999999999 ),
+Point ( 1.7423993821693557 , 0.4226631381518615 ),
+Point ( 1.4127250637812059 , 0.15348518436825848 ),
+Point ( 1.3118971387864111 , 0.07115952834797114 )
+] $
+horizontal_lines[12]: new (Line) $
+horizontal_lines[12] @hour: 17 $
+horizontal_lines[12] @points: [
+Point ( 24.43172108450834 , 8.258092424614109 ),
+Point ( 5.277916867529369 , 0.9999999999999999 ),
+Point ( 2.9585187266355892 , 0.1210933407598339 ),
+Point ( 2.182996862908914 , -0.1727808839358281 ),
+Point ( 1.9729223556082558 , -0.2523859677495091 )
+] $
+horizontal_lines[13]: new (Line) $
+horizontal_lines[13] @hour: 18 $
+horizontal_lines[13] @points: [
+Point ( 2.3095860183650132e+16 , 0.9999999999999999 ),
+Point ( 6.969759381800392 , -0.9999999999999992 ),
+Point ( 3.8540953131756472 , -0.9999999999999998 ),
+Point ( 3.2618051833175836 , -0.9999999999999998 )
+] $
+horizontal_lines[14]: new (Line) $
+horizontal_lines[14] @hour: 19 $
+horizontal_lines[14] @points: [
+Point ( 12.634481391585524 , -5.787677300987814 ),
+Point ( 7.817084179443631 , -3.9621854135428514 )
+] $
+horizontal_center: Point ( 0 , -1.0000000000000002 ) $
+horizontal_u: 1.4142135623730951 $
+horizontal_lines_by_declination[0]: new (LineWithDeclination) $
+horizontal_lines_by_declination[0] @declination: -23.44 $
+horizontal_lines_by_declination[0] @description: "winter solstice" $
+horizontal_lines_by_declination[0] @points: [
+PointWithHour ( 8 , -18.436001042210563 , 14.052931816944922 ),
+PointWithHour ( 9 , -3.655785527792973 , 4.170061474532107 ),
+PointWithHour ( 10 , -1.6350890985200521 , 3.0051339753614617 ),
+PointWithHour ( 11 , -0.6875549108973592 , 2.6288576615778245 ),
+PointWithHour ( 12 , 0 , 2.5308724572480457 ),
+PointWithHour ( 13 , 0.6875549108973592 , 2.6288576615778245 ),
+PointWithHour ( 14 , 1.6350890985200521 , 3.0051339753614617 ),
+PointWithHour ( 15 , 3.655785527792973 , 4.170061474532107 ),
+PointWithHour ( 16 , 18.436001042210563 , 14.052931816944922 )
+] $
+horizontal_lines_by_declination[1]: new (LineWithDeclination) $
+horizontal_lines_by_declination[1] @declination: -20.15 $
+horizontal_lines_by_declination[1] @description: "winter solstice plus 1 month" $
+horizontal_lines_by_declination[1] @points: [
+PointWithHour ( 8 , -9.20430899956858 , 6.515286827950047 ),
+PointWithHour ( 9 , -2.939716110514338 , 3.157386393016062 ),
+PointWithHour ( 10 , -1.4167991525770378 , 2.4704349918213535 ),
+PointWithHour ( 11 , -0.6110730706150752 , 2.2251928666922707 ),
+PointWithHour ( 12 , 0 , 2.159247624937492 ),
+PointWithHour ( 13 , 0.6110730706150752 , 2.2251928666922707 ),
+PointWithHour ( 14 , 1.4167991525770378 , 2.4704349918213535 ),
+PointWithHour ( 15 , 2.939716110514338 , 3.157386393016062 ),
+PointWithHour ( 16 , 9.20430899956858 , 6.515286827950047 )
+] $
+horizontal_lines_by_declination[2]: new (LineWithDeclination) $
+horizontal_lines_by_declination[2] @declination: -11.47 $
+horizontal_lines_by_declination[2] @description: "equinox minus 1 month" $
+horizontal_lines_by_declination[2] @points: [
+PointWithHour ( 7 , -24.43172108450834 , 8.258092424614109 ),
+PointWithHour ( 8 , -4.122430429557159 , 2.365950350845838 ),
+PointWithHour ( 9 , -1.9833411412864894 , 1.8048679408198867 ),
+PointWithHour ( 10 , -1.0663357678777379 , 1.6119785257793429 ),
+PointWithHour ( 11 , -0.47970696417851205 , 1.5318534777090755 ),
+PointWithHour ( 12 , 0 , 1.5091177746847853 ),
+PointWithHour ( 13 , 0.47970696417851205 , 1.5318534777090755 ),
+PointWithHour ( 14 , 1.0663357678777379 , 1.6119785257793429 ),
+PointWithHour ( 15 , 1.9833411412864894 , 1.8048679408198867 ),
+PointWithHour ( 16 , 4.122430429557159 , 2.365950350845838 ),
+PointWithHour ( 17 , 24.43172108450834 , 8.258092424614109 )
+] $
+horizontal_lines_by_declination[3]: new (LineWithDeclination) $
+horizontal_lines_by_declination[3] @declination: 0 $
+horizontal_lines_by_declination[3] @description: "equinox" $
+horizontal_lines_by_declination[3] @points: [
+PointWithHour ( 6 , -2.3095860183650132e+16 , 0.9999999999999999 ),
+PointWithHour ( 7 , -5.277916867529369 , 0.9999999999999999 ),
+PointWithHour ( 8 , -2.4494897427831774 , 0.9999999999999999 ),
+PointWithHour ( 9 , -1.4142135623730947 , 0.9999999999999998 ),
+PointWithHour ( 10 , -0.8164965809277258 , 0.9999999999999998 ),
+PointWithHour ( 11 , -0.3789373819630119 , 0.9999999999999999 ),
+PointWithHour ( 12 , 0 , 0.9999999999999999 ),
+PointWithHour ( 13 , 0.3789373819630119 , 0.9999999999999999 ),
+PointWithHour ( 14 , 0.8164965809277258 , 0.9999999999999998 ),
+PointWithHour ( 15 , 1.4142135623730947 , 0.9999999999999998 ),
+PointWithHour ( 16 , 2.4494897427831774 , 0.9999999999999999 ),
+PointWithHour ( 17 , 5.277916867529369 , 0.9999999999999999 ),
+PointWithHour ( 18 , 2.3095860183650132e+16 , 0.9999999999999999 )
+] $
+horizontal_lines_by_declination[4]: new (LineWithDeclination) $
+horizontal_lines_by_declination[4] @declination: 11.47 $
+horizontal_lines_by_declination[4] @description: "equinox plus 1 month" $
+horizontal_lines_by_declination[4] @points: [
+PointWithHour ( 6 , -6.969759381800392 , -0.9999999999999992 ),
+PointWithHour ( 7 , -2.9585187266355892 , 0.1210933407598339 ),
+PointWithHour ( 8 , -1.7423993821693557 , 0.4226631381518615 ),
+PointWithHour ( 9 , -1.0988843540461628 , 0.5540571569716815 ),
+PointWithHour ( 10 , -0.6615074275646423 , 0.6203556585944777 ),
+PointWithHour ( 11 , -0.3131546007232529 , 0.6528039493016814 ),
+PointWithHour ( 12 , 0 , 0.6626388057809955 ),
+PointWithHour ( 13 , 0.3131546007232529 , 0.6528039493016814 ),
+PointWithHour ( 14 , 0.6615074275646423 , 0.6203556585944777 ),
+PointWithHour ( 15 , 1.0988843540461628 , 0.5540571569716815 ),
+PointWithHour ( 16 , 1.7423993821693557 , 0.4226631381518615 ),
+PointWithHour ( 17 , 2.9585187266355892 , 0.1210933407598339 ),
+PointWithHour ( 18 , 6.969759381800392 , -0.9999999999999992 )
+] $
+horizontal_lines_by_declination[5]: new (LineWithDeclination) $
+horizontal_lines_by_declination[5] @declination: 20.15 $
+horizontal_lines_by_declination[5] @description: "summer solstice minus 1 month" $
+horizontal_lines_by_declination[5] @points: [
+PointWithHour ( 5 , -12.634481391585524 , -5.787677300987814 ),
+PointWithHour ( 6 , -3.8540953131756472 , -0.9999999999999998 ),
+PointWithHour ( 7 , -2.182996862908914 , -0.1727808839358281 ),
+PointWithHour ( 8 , -1.4127250637812059 , 0.15348518436825848 ),
+PointWithHour ( 9 , -0.931059979550429 , 0.31671765046303346 ),
+PointWithHour ( 10 , -0.5735018963330373 , 0.4047870125344764 ),
+PointWithHour ( 11 , -0.2746157781475499 , 0.44939924757465655 ),
+PointWithHour ( 12 , 0 , 0.4631242792400656 ),
+PointWithHour ( 13 , 0.2746157781475499 , 0.44939924757465655 ),
+PointWithHour ( 14 , 0.5735018963330373 , 0.4047870125344764 ),
+PointWithHour ( 15 , 0.931059979550429 , 0.31671765046303346 ),
+PointWithHour ( 16 , 1.4127250637812059 , 0.15348518436825848 ),
+PointWithHour ( 17 , 2.182996862908914 , -0.1727808839358281 ),
+PointWithHour ( 18 , 3.8540953131756472 , -0.9999999999999998 ),
+PointWithHour ( 19 , 12.634481391585524 , -5.787677300987814 )
+] $
+horizontal_lines_by_declination[6]: new (LineWithDeclination) $
+horizontal_lines_by_declination[6] @declination: 23.44 $
+horizontal_lines_by_declination[6] @description: "summer solstice" $
+horizontal_lines_by_declination[6] @points: [
+PointWithHour ( 5 , -7.817084179443631 , -3.9621854135428514 ),
+PointWithHour ( 6 , -3.2618051833175836 , -0.9999999999999998 ),
+PointWithHour ( 7 , -1.9729223556082558 , -0.2523859677495091 ),
+PointWithHour ( 8 , -1.3118971387864111 , 0.07115952834797114 ),
+PointWithHour ( 9 , -0.8766742529145 , 0.23980461825498672 ),
+PointWithHour ( 10 , -0.5440985699558973 , 0.33276386616996606 ),
+PointWithHour ( 11 , -0.2615413230416944 , 0.38039336043770644 ),
+PointWithHour ( 12 , 0 , 0.3951206617054712 ),
+PointWithHour ( 13 , 0.2615413230416944 , 0.38039336043770644 ),
+PointWithHour ( 14 , 0.5440985699558973 , 0.33276386616996606 ),
+PointWithHour ( 15 , 0.8766742529145 , 0.23980461825498672 ),
+PointWithHour ( 16 , 1.3118971387864111 , 0.07115952834797114 ),
+PointWithHour ( 17 , 1.9729223556082558 , -0.2523859677495091 ),
+PointWithHour ( 18 , 3.2618051833175836 , -0.9999999999999998 ),
+PointWithHour ( 19 , 7.817084179443631 , -3.9621854135428514 )
+] $
+vertical_center: Point ( -0 , 0.9999999999999999 ) $
+vertical_u: 1.414213562373095 $
+vertical_lines[0]: new (Line) $
+vertical_lines[0] @hour: 6 $
+vertical_lines[0] @points: [
+Point ( -2.3095860183650136e+16 , -1.0000000000000002 )
+] $
+vertical_lines[1]: new (Line) $
+vertical_lines[1] @hour: 7 $
+vertical_lines[1] @points: [
+Point ( -2.9585187266355892 , -0.12109334075983398 ),
+Point ( -5.277916867529369 , -1.0000000000000002 ),
+Point ( -24.431721084508357 , -8.258092424614116 )
+] $
+vertical_lines[2]: new (Line) $
+vertical_lines[2] @hour: 8 $
+vertical_lines[2] @points: [
+Point ( -1.3118971387864111 , -0.0711595283479713 ),
+Point ( -1.4127250637812059 , -0.15348518436825864 ),
+Point ( -1.742399382169356 , -0.4226631381518617 ),
+Point ( -2.449489742783178 , -1.0000000000000002 ),
+Point ( -4.12243042955716 , -2.365950350845839 ),
+Point ( -9.20430899956859 , -6.515286827950054 ),
+Point ( -18.436001042210606 , -14.052931816944954 )
+] $
+vertical_lines[3]: new (Line) $
+vertical_lines[3] @hour: 9 $
+vertical_lines[3] @points: [
+Point ( -0.8766742529145 , -0.23980461825498695 ),
+Point ( -0.9310599795504291 , -0.31671765046303374 ),
+Point ( -1.0988843540461628 , -0.5540571569716818 ),
+Point ( -1.414213562373095 , -1.0000000000000002 ),
+Point ( -1.98334114128649 , -1.8048679408198876 ),
+Point ( -2.93971611051434 , -3.157386393016065 ),
+Point ( -3.6557855277929763 , -4.170061474532111 )
+] $
+vertical_lines[4]: new (Line) $
+vertical_lines[4] @hour: 10 $
+vertical_lines[4] @points: [
+Point ( -0.5440985699558973 , -0.3327638661699662 ),
+Point ( -0.5735018963330373 , -0.4047870125344767 ),
+Point ( -0.6615074275646424 , -0.620355658594478 ),
+Point ( -0.816496580927726 , -1.0000000000000002 ),
+Point ( -1.066335767877738 , -1.6119785257793435 ),
+Point ( -1.4167991525770385 , -2.470434991821355 ),
+Point ( -1.635089098520053 , -3.005133975361463 )
+] $
+vertical_lines[5]: new (Line) $
+vertical_lines[5] @hour: 11 $
+vertical_lines[5] @points: [
+Point ( -0.2615413230416944 , -0.38039336043770666 ),
+Point ( -0.2746157781475499 , -0.44939924757465677 ),
+Point ( -0.31315460072325296 , -0.6528039493016816 ),
+Point ( -0.37893738196301197 , -1.0000000000000002 ),
+Point ( -0.47970696417851216 , -1.5318534777090762 ),
+Point ( -0.6110730706150754 , -2.2251928666922716 ),
+Point ( -0.6875549108973594 , -2.628857661577826 )
+] $
+vertical_lines[6]: new (Line) $
+vertical_lines[6] @hour: 12 $
+vertical_lines[6] @points: [
+Point ( 0 , -0.3951206617054714 ),
+Point ( 0 , -0.46312427924006583 ),
+Point ( 0 , -0.6626388057809958 ),
+Point ( 0 , -1.0000000000000002 ),
+Point ( 0 , -1.5091177746847857 ),
+Point ( 0 , -2.159247624937493 ),
+Point ( 0 , -2.5308724572480465 )
+] $
+vertical_lines[7]: new (Line) $
+vertical_lines[7] @hour: 13 $
+vertical_lines[7] @points: [
+Point ( 0.2615413230416944 , -0.38039336043770666 ),
+Point ( 0.2746157781475499 , -0.44939924757465677 ),
+Point ( 0.31315460072325296 , -0.6528039493016816 ),
+Point ( 0.37893738196301197 , -1.0000000000000002 ),
+Point ( 0.47970696417851216 , -1.5318534777090762 ),
+Point ( 0.6110730706150754 , -2.2251928666922716 ),
+Point ( 0.6875549108973594 , -2.628857661577826 )
+] $
+vertical_lines[8]: new (Line) $
+vertical_lines[8] @hour: 14 $
+vertical_lines[8] @points: [
+Point ( 0.5440985699558973 , -0.3327638661699662 ),
+Point ( 0.5735018963330373 , -0.4047870125344767 ),
+Point ( 0.6615074275646424 , -0.620355658594478 ),
+Point ( 0.816496580927726 , -1.0000000000000002 ),
+Point ( 1.066335767877738 , -1.6119785257793435 ),
+Point ( 1.4167991525770385 , -2.470434991821355 ),
+Point ( 1.635089098520053 , -3.005133975361463 )
+] $
+vertical_lines[9]: new (Line) $
+vertical_lines[9] @hour: 15 $
+vertical_lines[9] @points: [
+Point ( 0.8766742529145 , -0.23980461825498695 ),
+Point ( 0.9310599795504291 , -0.31671765046303374 ),
+Point ( 1.0988843540461628 , -0.5540571569716818 ),
+Point ( 1.414213562373095 , -1.0000000000000002 ),
+Point ( 1.98334114128649 , -1.8048679408198876 ),
+Point ( 2.93971611051434 , -3.157386393016065 ),
+Point ( 3.6557855277929763 , -4.170061474532111 )
+] $
+vertical_lines[10]: new (Line) $
+vertical_lines[10] @hour: 16 $
+vertical_lines[10] @points: [
+Point ( 1.3118971387864111 , -0.0711595283479713 ),
+Point ( 1.4127250637812059 , -0.15348518436825864 ),
+Point ( 1.742399382169356 , -0.4226631381518617 ),
+Point ( 2.449489742783178 , -1.0000000000000002 ),
+Point ( 4.12243042955716 , -2.365950350845839 ),
+Point ( 9.20430899956859 , -6.515286827950054 ),
+Point ( 18.436001042210606 , -14.052931816944954 )
+] $
+vertical_lines[11]: new (Line) $
+vertical_lines[11] @hour: 17 $
+vertical_lines[11] @points: [
+Point ( 2.9585187266355892 , -0.12109334075983398 ),
+Point ( 5.277916867529369 , -1.0000000000000002 ),
+Point ( 24.431721084508357 , -8.258092424614116 )
+] $
+vertical_lines[12]: new (Line) $
+vertical_lines[12] @hour: 18 $
+vertical_lines[12] @points: [
+Point ( 2.3095860183650136e+16 , -1.0000000000000002 )
+] $

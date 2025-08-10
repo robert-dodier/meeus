@@ -21,7 +21,20 @@ type Line struct {
 	Points []Point // One or more points corresponding to the hour.
 }
 
+type PointWithHour struct {
+    H int
+	X, Y float64
+}
+
+type LineWithDeclination struct {
+	Declination unit.Angle
+    Description string
+	Points []PointWithHour
+}
+
+// var m = []float64{- 23.44, - 21.97, - 20.51, - 19.04, - 17.58, - 16.11, - 14.65, - 13.18, - 11.72, - 10.25, - 8.79, - 7.325, - 5.86, - 4.395, - 2.93, - 1.465, 0.0, 1.465, 2.93, 4.395, 5.86, 7.325, 8.79, 10.25, 11.72, 13.18, 14.65, 16.11, 17.58, 19.04, 20.51, 21.97, 23.44}
 var m = []float64{-23.44, -20.15, -11.47, 0, 11.47, 20.15, 23.44}
+var descriptions = []string{"winter solstice", "winter solstice plus 1 month", "equinox minus 1 month", "equinox", "equinox plus 1 month", "summer solstice minus 1 month", "summer solstice"}
 
 // General computes data for the general case of a planar sundial.
 //
@@ -140,6 +153,34 @@ func Horizontal(φ unit.Angle, a float64) (lines []Line, center Point, u float64
 			x := a * sH / Q
 			y := a * (sφ*cH - cφ*tδ) / Q
 			l.Points = append(l.Points, Point{x, y})
+		}
+		if len(l.Points) > 0 {
+			lines = append(lines, l)
+		}
+	}
+	center.Y = -a / tφ
+	u = a / math.Abs(sφ)
+	return
+}
+
+func HorizontalByDeclination (φ unit.Angle, a float64) (lines []LineWithDeclination, center Point, u float64) {
+	sφ, cφ := φ.Sincos()
+	tφ := sφ / cφ
+    for j, d := range m {
+        l := LineWithDeclination { Declination: unit.Angle (d), Description: descriptions[j] }
+        for i := 0; i < 24; i++ {
+            H := float64(i-12) * 15 * math.Pi / 180
+            aH := math.Abs(H)
+            sH, cH := math.Sincos(H)
+			tδ := math.Tan(d * math.Pi / 180)
+			H0 := math.Acos(-tφ * tδ)
+			if aH > H0 {
+				continue // sun below horizon
+			}
+			Q := cφ*cH + sφ*tδ
+			x := a * sH / Q
+			y := a * (sφ*cH - cφ*tδ) / Q
+			l.Points = append(l.Points, PointWithHour{i, x, y})
 		}
 		if len(l.Points) > 0 {
 			lines = append(lines, l)

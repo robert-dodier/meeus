@@ -1,0 +1,45 @@
+defstruct (Point (X, Y));
+defstruct (Line (hour, points));
+
+defstruct (PointWithHour (H, X, Y));
+defstruct (LineWithDeclination (declination, description, points));
+
+draw_sundial (center, lines) :=
+    apply (draw2d, construct_sundial (center, lines));
+
+construct_sundial (center, lines) :=
+    append ([xrange = [-25, 25], yrange = [-25, 25], proportional_axes='xy, xlabel = "West--East", ylabel = "South--North",
+             point_size = 2, point_type = circle, color = 1, points ([args (center)]),
+             point_type = filled_circle, point_size = 1],
+            apply (append, makelist ([ color = mod (l@hour, 18), label ([string (l@hour), l@points[1]@X, l@points[1]@Y]), points (map (args, rest (l@points))) ], l, listarray (lines))));
+
+draw_sundial_by_declination (lines) :=
+    apply (draw2d, construct_sundial_by_declination (lines));
+
+dh: 1;
+
+foo (p) :=
+    block ([h: sqrt (p@X^2 + p@Y^2), d], 
+           d: (h + dh) / h,
+           Point (d*p@X, d*p@Y));
+
+construct_sundial_by_declination (line) :=
+    append ([ xrange = [-25, 25], yrange = [-25, 25], proportional_axes='xy, xlabel = "West--East", ylabel = "South--North",
+              title = printf (false, "Declination ~,2f degrees (~a)", line@declination, line@description),
+              point_size = 2, point_type = circle, color = 1, points ([[0, 0]]),
+              points_joined = true, point_type = none, point_size = 1 ],
+            apply (append, makelist ([ label ([ string (p@H), foo (p)@X, foo (p)@Y ]),
+                                       points ([[0, 0], [p@X, p@Y]]) ],
+                                     p, line@points)));
+
+use_fast_arrays: true;
+
+load ("make_sundial-output.mac");
+
+calculate_azimuth_wrt_center (center, line) :=
+    block ([aa: makelist (atan2 (p@Y - center@Y, p@X - center@X), p, line@points)],
+           [hour = line@hour,  azimuth_for_each_point = aa]);
+
+calculate_azimuth_wrt_origin (line) :=
+    block ([aa: makelist (atan2 (p@Y, p@X), p, line@points)],
+           [hour = line@hour,  azimuth_for_each_point = aa]);
